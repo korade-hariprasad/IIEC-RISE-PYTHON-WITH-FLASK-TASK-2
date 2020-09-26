@@ -1,0 +1,10 @@
+#!C:\ProgramData\Anaconda3\python.exe
+print("Content-Type:text/html\n\n")
+
+import cgi
+import subprocess as sp
+
+id = cgi.FieldStorage().getvalue("id")
+
+if id = 4:
+	wb.open("http://192.168.56.1/cgi-bin/file_viewer_cgi")

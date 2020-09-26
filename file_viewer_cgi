@@ -1,0 +1,9 @@
+#!C:\ProgramData\Anaconda3\python.exe
+print("Content-Type:text/html\n\n")
+
+print("All Files : <BR />")
+import os
+os.system("cd user_files")
+a = os.listdir()
+for file in a:
+	print(file+"<BR />")

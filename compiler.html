@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<TITLE>Compiler</TITLE>
+</HEAD>
+<BODY>
+<FORM ACTION='http://192.168.56.1/cgi-bin/on_comp'>
+<TABLE>
+<TR><TD>Select Language : </TD><TD><SELECT NAME='language'>
+<OPTION SELECTED>Java</OPTION>
+<OPTION>Python</OPTION>
+</SELECT></TD></TR>
+<TR><TD>Give your filename without extension : </TD>
+<TD><INPUT TYPE="text" NAME="f_name" REQUIRED /></TD></TR>
+</TABLE><BR />
+Write Code Here : <BR />
+<TEXTAREA NAME="code" ROWS="30" COLS="100" REQUIRED></TEXTAREA><BR />
+<BR />Parameters (if any) seperated by spaces : <INPUT TYPE='text' NAME='parameters' VALUE='none'/><BR /><BR />
+<INPUT TYPE='submit'>
+</FORM>
+</BODY>
+</HTML>
